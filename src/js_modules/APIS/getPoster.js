@@ -3,7 +3,7 @@ export default async function getPoster(url) {
         const response = await fetch(url);
         return response.url;
     } catch (err) {
-        document.querySelector('.result').textContent = err;
+        console.log(err);
         return require('../../assets/images/default.jpg');
     }
 }

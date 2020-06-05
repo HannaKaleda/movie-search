@@ -7,6 +7,6 @@ export default async function getRate(id) {
         const data = await response.json();
         return data;
     } catch (err) {
-        document.querySelector('.result').textContent = err;
+        console.log(err);
     }
 }

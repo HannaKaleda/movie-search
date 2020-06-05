@@ -7,6 +7,6 @@ export default async function getFilms(request) {
         const data = await response.json();
         return data.Search;
     } catch (err) {
-        document.querySelector('.result').textContent = err;
+        console.log(err);
     }
 }

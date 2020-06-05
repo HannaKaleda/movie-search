@@ -1,0 +1,89 @@
+.keyboard {
+  position: absolute;
+  left: 0;
+  z-index: 1020;
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-800px);
+
+  transition: 0.8s;
+}
+
+.keyboard.opened {
+  transform: translateY(0);
+}
+
+.keyboard__keys {
+  text-align: center;
+}
+
+.keyboard__button {
+  margin: 0 10px 10px 0;
+
+  font-size: 16px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+
+  background: #173830;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.keyboard__button:hover {
+  background: #7bb9ab;
+}
+
+.keyboard__button_short {
+  width: 40px;
+  height: 40px;
+}
+
+.keyboard__button_medium {
+  width: 80px;
+  height: 40px;
+}
+
+.keyboard__button_dark {
+  background: #173830;
+}
+
+.keyboard__button_long {
+  width: 100px;
+  height: 40px;
+}
+
+.keyboard__button_huge {
+  width: 420px;
+  height: 40px;
+}
+
+.keyboard__button_activated {
+  background: #911505;
+}
+
+.pressed-key {
+  background: #ff792c;
+  border-radius: 10px;
+}
+
+.keyboard__description {
+  margin-bottom: 20px;
+
+  text-align: center;
+  color: #7bb9ab;
+}
+
+@media (max-width: 1020px) {
+  .keyboard {
+    display: none;
+  }
+}

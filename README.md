@@ -19,6 +19,7 @@ pagination works by the principle of infinite scrolling.
 9. In order to avoid delays in the application, the next page is loaded when the user has to scroll through a certain number of cards
 10. If the user enters an incorrect search query by which the API returns an error, the data on the cards does not change, the application does not break, an error notification is displayed.
 11. Errors occurring in working with the API (interruption of the connection during the request, returned errors from APIs such as 4xx, 5xx) are also processed by the client and displayed in the error notification area.
+12. Search query can be typed on the virtual keyboard. It is possible to switch the keyboard language with a mouse click (Shift + Alt)
 
 **To run the application, you need to**
 1. Install Node.js

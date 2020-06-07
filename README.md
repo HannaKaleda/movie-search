@@ -21,7 +21,7 @@ The Movie-search application was created using **HTML, SASS, JS, Webpack** and t
 12. Errors occurring in working with the API (interruption of the connection during the request, returned errors from APIs such as 4xx, 5xx) are also processed by the client and displayed in the error notification area.
 13. Search query can be typed on the virtual keyboard. It is possible to switch the keyboard language with a mouse click (Shift + Alt)
 
-**To run the application, you need to**
+**To run the application you need to**
 1. Install Node.js
 2. Clone the repository
 3. Go to folder movie-search
